@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <title>E-Service</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+        $(document).ready(function() {
+            var navbar = $('.navbar');
+            var sticky = navbar.offset().top;
+
+            $(window).scroll(function() {
+                if ($(window).scrollTop() >= sticky) {
+                    navbar.addClass('sticky');
+                } else {
+                    navbar.removeClass('sticky');
+                }
+            });
+        });
+    </script>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Kumaresan E-Service</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Showcase -->
+    <section id="showcase">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-auto">
+                    <h1>E-Service</h1>
+                    <p class="lead mb-5">Welcome to our E-Service! We are a one-stop solution for all your government document needs. From the comfort of your own home, we offer professional assistance in obtaining important documents such as Income Certificate, Nativity
+                        Certificate, Voter ID, PAN Card, Aadhaar Card, First Graduate Certificate, Birth Certificate, and Property Tax. With our personalized service, you can rely on us to handle all the paperwork and formalities, saving you time and
+                        hassle. Trust us to provide efficient and prompt service, ensuring that you receive your required documents in a timely manner. Contact us today to get started!.</p>
+                    <a href="#services" class="btn btn-primary btn-lg mb-3">Learn More</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="my-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Our Services</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Income Certificate</h4>
+                            <p class="card-text">We offer professional assistance in obtaining an Income Certificate for 70 rupees through our home-based e-service.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Pan Card</h4>
+                            <p class="card-text">Our home-based e-service offers professional assistance in obtaining and correcting a PAN Card. Our personalized service handles the paperwork and formalities, saving you time and hassle. Contact us today for an easy and efficient
+                                process of obtaining or correcting your PAN Card..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Voter ID</h4>
+                            <p class="card-text"> Our home-based e-service offers professional assistance in obtaining and correcting a Voter ID. Our personalized service handles the paperwork and formalities, saving you time and hassle. Contact us today for an easy and efficient
+                                process of obtaining or correcting your Voter ID.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Property Tax</h4>
+                            <p class="card-text">Our home-based e-service offers professional assistance in paying Property Tax. Our personalized service handles the payment process, saving you time and hassle. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">UnderGround Drainage</h4>
+                            <p class="card-text">Our home-based e-service offers professional assistance in paying for Underground Drainage charges. Our personalized service handles the payment process, saving you time and hassle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Nalavariyam Renewal</h4>
+                            <p class="card-text">Our home-based e-service offers professional assistance in renewing Nalavariyam. Our personalized service handles the renewal process, saving you time and hassle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Rasen Card</h4>
+                            <p class="card-text">Our home-based e-service offers professional assistance in correcting information on your Smart Card, including changing the family head and adding a photo. Our personalized service handles the correction process, saving you
+                                time and hassle. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">First Graduate Certificate</h4>
+                            <p class="card-text"> Our home-based e-service offers professional assistance in obtaining a First Graduate Certificate. Our personalized service handles the application process, saving you time and hassle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">EB Bill</h4>
+                            <p class="card-text">Our home-based e-service offers professional assistance in paying your EB (Electricity Board) bill.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Water Tax</h4>
+                            <p class="card-text">Our home-based e-service offers professional assistance in paying your Water Tax. Our personalized service handles the payment process, saving you time and hassle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Aadhar Card</h4>
+                            <p class="card-text">Our home-based e-service offers professional assistance in changing the name on your Aadhaar Card. Our personalized service handles the correction process, saving you time and hassle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Nativity Certificate</h4>
+                            <p class="card-text"> Our home-based e-service offers professional assistance in obtaining a Nativity Certificate. Our personalized service handles the application process, saving you time and hassle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Welcome to our home-based e-service center, where we aim to simplify the process of obtaining important certificates and paying bills. Our founder, Kumaresan, brings a wealth of technical expertise to the table, having honed his skills
+                        in programming languages and won awards for his projects in college. With a passion for entrepreneurship and a desire to make a difference, Kumaresan has established this e-service center to offer a personalized, convenient, and
+                        efficient solution for all your needs..</p>
+                </div>
+                <div class="col-lg-6">
+                    <p>At our e-service center, we offer professional assistance in obtaining certificates like Income Certificate, Nativity Certificate, First Graduate Certificate, and Birth Certificate. We also handle correction and updating of important
+                        documents like PAN Card, Voter ID, Aadhaar Card, and Smart Card. Additionally, we take care of paying your Property Tax, EB Bill, Water Tax, and Underground Drainage charges..</p>
+                </div>
+                <div class="col-lg-6">
+                    <p>Our goal is to make your life easier by handling the paperwork and formalities involved in these processes, freeing up your time and saving you from the hassle of standing in long lines and dealing with bureaucratic procedures. With
+                        our expertise and commitment, we guarantee a smooth and seamless experience for all your needs..</p>
+                </div>
+                <div class="col-lg-6">
+                    <p>We look forward to serving you and helping you navigate the complexities of obtaining important certificates and paying bills. Contact us today to find out how we can make your life easier.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <div class="container my-5">
+        <h2 class="text-center">Contact Us:</h2>
+        <p class="text-center">We're here to help. If you have any questions or concerns, please reach out to us using the contact form or information below.</p>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Phone:</h3>
+                <p>9150510835</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Email:</h3>
+                <p>Kumaresankp21@gmail.com</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Address:</h3>
+                <p>43/22 Sivarayar Thottam 2nd Street.<br> M.chavadi Thanjavur-613001</p>
+            </div>
+        </div>
+        <h3 class="text-center mt-5">Follow us on social media:</h3>
+        <div class="d-flex justify-content-center">
+            <a href="https://www.facebook.com/kumaresan.kp.7121">
+                <i class="fab fa-facebook fa-2x mx-3"></i>
+            </a>
+            <a href="https://twitter.com/kumaresankp3">
+                <i class="fab fa-twitter fa-2x mx-3"></i>
+            </a>
+            <a href="https://www.instagram.com/kumaresankp21/">
+                <i class="fab fa-instagram fa-2x mx-3"></i>
+            </a>
+        </div>
+        <h3 class="text-center mt-5">Business Hours:</h3>
+        <p class="text-center">Monday - Friday: 5pm - 9pm IST<br> Saturday: 10am - 6pm IST<br> Sunday: Closed.</p>
+        <p class="text-center">If you need assistance outside of our business hours, please leave us a message and we'll get back to you as soon as possible.</p>
+    </div>
